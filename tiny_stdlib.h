@@ -260,7 +260,7 @@ size_t   __cdecl strlen(const char *Str);
 char*    __cdecl strcpy(char *Target,const char *Sourece);
 int      __cdecl strcmp(const char *a,const char *b);
 char*    __cdecl strerror(int);
-
+char*    __cdecl strcat(char *Dest,const char *Source);
 //Utils
 int      __cdecl isprint(int Ch);
 void     __cdecl  exit(int Code);
